@@ -1,7 +1,7 @@
 ## Script parameters being asked for below match to parameters in the azuredeploy.json file, otherwise pointing to the ##
 ## azuredeploy.parameters.json file for values to use.  Some options below are mandatory, some (such as region) can    ##
 ## be supplied inline when running this script but if they aren't then the default will be used as specified below.    ##
-## Example Command: .\Deploy_via_PS.ps1 -adminUsername azureuser -adminPassword <value> -vmRoleName Contributor -masterKey <value> -dnsLabel <value> -instanceName f5vm01 -instanceType Standard_D4s_v3 -bigIqVersion 6.1.000000 -bigIqLicenseKey1 <value> -bigIqLicenseKey2 <value> -licensePoolKeys Do_Not_Create -regPoolKeys Do_Not_Create -vnetAddressPrefix 10.0 -ntpServer 0.pool.ntp.org -timeZone UTC -customImage OPTIONAL -allowUsageAnalytics Yes -resourceGroupName <value>
+## Example Command: .\Deploy_via_PS.ps1 -adminUsername azureuser -adminPassword <value> -vmRoleName Contributor -masterKey <value> -dnsLabel <value> -instanceName f5vm01 -instanceType Standard_D4s_v3 -bigIqVersion 7.0.010000 -bigIqLicenseKey1 <value> -bigIqLicenseKey2 <value> -licensePoolKeys Do_Not_Create -regPoolKeys Do_Not_Create -vnetAddressPrefix 10.0 -ntpServer 0.pool.ntp.org -timeZone UTC -customImage OPTIONAL -allowUsageAnalytics Yes -resourceGroupName <value>
 
 param(
 
