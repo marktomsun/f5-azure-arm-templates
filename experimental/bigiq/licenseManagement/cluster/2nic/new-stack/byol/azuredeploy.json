@@ -105,7 +105,7 @@
             "allowedValues": [
                 "6.1.000000"
             ],
-            "defaultValue": "6.1.000000",
+            "defaultValue": "7.0.010000",
             "metadata": {
                 "description": "F5 BIG-IQ version you want to use."
             },
